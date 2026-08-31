@@ -38,3 +38,4 @@
 - [x] `foundation/` の各文書に責務を1行で明記する — 各 foundation 文書（ret-phase-0-1 P2） (PR #5)
 - [x] 最初の章は最小の1節から始め、仕組みを先に検証する — 章立ての設計時（ret-phase-0-1 P3） (PR #5)
 - [x] マージ後のバックログ更新の担当とタイミングを定義する — `CLAUDE.md`（ret-phase-0-1 P4） (PR #5)
+- [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
