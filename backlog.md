@@ -6,13 +6,13 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 受講者像の確定 (branch: curriculum/audience)
+- 全体の学習目標の決定 (branch: curriculum/learning-objectives)
 
 ## 教材
 
 ### 準備（Phase 1）
 
-- [ ] 受講者像の確定 — `foundation/audience.md` の未確定項目を埋める
+- [x] 受講者像の確定 — `foundation/audience.md` の未確定項目を埋める (PR #1)
 - [ ] 全体の学習目標の決定 — `foundation/curriculum.md`
 - [ ] 章立ての設計 — `foundation/curriculum.md`、確定後にこのファイルへ展開
 
