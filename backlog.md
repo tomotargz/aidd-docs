@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- エージェントとコンテキストの正式表記を決める (branch: curriculum/agent-terminology)
+- ツール系の出典を台帳に追加する (branch: curriculum/tool-references)
 
 ## 教材
 
@@ -16,7 +16,7 @@
 - [x] 全体の学習目標の決定 — `foundation/curriculum.md` (PR #3)
 - [x] 章立ての設計 — `foundation/curriculum.md`、確定後にこのファイルへ展開 (PR #6)
 - [x] エージェントの正式表記を決める — `glossary.md`。「AIエージェント」「コーディングエージェント」「エージェント」が混在している。1章の執筆前に確定する
-- [ ] ツール系の出典を台帳に追加する — `sources/references.md`。`CLAUDE.md` と skills は原則2にかかる。1章の執筆前に確定する
+- [x] ツール系の出典を台帳に追加する — `sources/references.md`。`CLAUDE.md` と skills は原則2にかかる。1章の執筆前に確定する
 
 ### 章
 
