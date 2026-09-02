@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 章立ての設計 (branch: curriculum/chapter-structure)
+- `curriculum.md` を決定と判断の記録の2部に分ける (branch: process/split-curriculum)
 
 ## 教材
 
@@ -14,7 +14,7 @@
 
 - [x] 受講者像の確定 — `foundation/audience.md` の未確定項目を埋める (PR #1)
 - [x] 全体の学習目標の決定 — `foundation/curriculum.md` (PR #3)
-- [ ] 章立ての設計 — `foundation/curriculum.md`、確定後にこのファイルへ展開 (PR #6)
+- [x] 章立ての設計 — `foundation/curriculum.md`、確定後にこのファイルへ展開 (PR #6)
 - [ ] エージェントの正式表記を決める — `glossary.md`。「AIエージェント」「コーディングエージェント」「エージェント」が混在している。1章の執筆前に確定する
 - [ ] ツール系の出典を台帳に追加する — `sources/references.md`。`CLAUDE.md` と skills は原則2にかかる。1章の執筆前に確定する
 
@@ -41,3 +41,4 @@
 - [x] 最初の章は最小の1節から始め、仕組みを先に検証する — 章立ての設計時（ret-phase-0-1 P3） (PR #5)
 - [x] マージ後のバックログ更新の担当とタイミングを定義する — `CLAUDE.md`（ret-phase-0-1 P4） (PR #5)
 - [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
+- [ ] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生）
