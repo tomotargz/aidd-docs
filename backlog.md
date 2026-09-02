@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 振り返りの Try の適用 (branch: process/apply-retro-try-phase-0-1)
+- 章立ての設計 (branch: curriculum/chapter-structure)
 
 ## 教材
 
