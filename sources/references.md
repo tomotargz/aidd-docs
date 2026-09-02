@@ -29,6 +29,10 @@
 | REF-013 | 一次 | DORA: Documentation quality | https://dora.dev/capabilities/documentation-quality/ | 2026-08-31 | 内部文書の品質を明確さ・見つけやすさ・信頼性など8指標で測る。"documentation quality driving the implementation of every single technical practice we studied"。トランクベース開発の導入時、文書品質が平均以上なら組織パフォーマンス1525%向上、平均以下なら36%。**このページ自体は AI に言及しない** | foundation/curriculum.md（O3） |
 | REF-014 | 一次 | DORA: AI-accessible internal data | https://dora.dev/capabilities/ai-accessible-internal-data/ | 2026-08-31 | "This connection, often implemented through a discipline known as **context engineering**, transforms generic AI models into specialized experts." / "giving teams AI tools that can access internal data directly amplifies the positive impact of AI adoption, serving as a statistically significant multiplier for individual effectiveness and code quality" / **"High-quality documentation is a primary driver of AI adoption."** 実装3段階: 手動のコンテキストエンジニアリング → RAG / MCP による自動化 → セキュリティ基盤を伴う運用 | foundation/curriculum.md（O3 第1段階 / O6 第2・3段階） |
 | REF-015 | 一次 | DORA: Continuous delivery | https://dora.dev/capabilities/continuous-delivery/ | 2026-09-02 | "Continuous delivery is the ability to release changes of all kinds on demand quickly, safely, and sustainably." / **"While continuous delivery is often combined with continuous integration and shortened to CI/CD, research shows that continuous integration is only one element of implementing continuous delivery."** foundational drivers に Test automation / Deployment automation / Trunk-based development / Pervasive security / Continuous integration / Version control を挙げる。**CD を5〜7章の到達点として位置づける判断の根拠** | foundation/curriculum.md（O5、7章） |
+| REF-016 | 一次 | Claude Code: Overview | https://code.claude.com/docs/en/overview | 2026-09-02 | "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser." ターミナル / IDE 拡張 / デスクトップアプリ / ブラウザの4つの surface で動く | foundation/curriculum.md（1章） |
+| REF-017 | 一次 | Claude Code: How Claude remembers your project（CLAUDE.md） | https://code.claude.com/docs/en/memory | 2026-09-02 | "CLAUDE.md files are markdown files that give Claude persistent instructions for a project, your personal workflow, or your entire organization. You write these files in plain text; Claude reads them at the start of every session." 配置は managed policy / `~/.claude/CLAUDE.md` / `./CLAUDE.md` または `./.claude/CLAUDE.md` / `./CLAUDE.local.md` の4スコープで、この順に読み込まれる。**1ファイル200行以下を目安とする**。`/init` で雛形を生成できる | foundation/curriculum.md（1章2節・3章3節） |
+| REF-018 | 一次 | Claude Code: Skills | https://code.claude.com/docs/en/skills | 2026-09-02 | "Skills extend what Claude can do. Create a `SKILL.md` file with instructions, and Claude adds it to its toolkit. Claude uses skills when relevant, or you can invoke one directly with `/skill-name`." **本文は使用時にのみ読み込まれる**（"a skill's body loads only when it's used, so long reference material costs almost nothing until you need it"）。配置は `~/.claude/skills/<name>/SKILL.md`（個人）と `.claude/skills/<name>/SKILL.md`（プロジェクト）。**カスタムコマンド（`.claude/commands/`）は skills に統合された** | foundation/curriculum.md（3章3節） |
+| REF-019 | 一次 | Claude Code: Advanced setup | https://code.claude.com/docs/en/setup | 2026-09-02 | 動作要件: macOS 13.0+ / Windows 10 1809+ / Ubuntu 20.04+ / Debian 10+ / Alpine 3.19+、メモリ4GB 以上、インターネット接続必須。インストールは `curl -fsSL https://claude.ai/install.sh \| bash`（macOS・Linux・WSL）。確認は `claude --version`。Pro / Max / Team / Enterprise / Console のいずれかのアカウントが必要で、無料プランは対象外 | foundation/curriculum.md（1章3節） |
 
 ## 再確認が必要な出典
 
@@ -38,7 +42,12 @@
 |---|---|---|
 | REF-001 | DORA は毎年の研究で capability を追加・改訂する。AI カテゴリは特に変動しやすい | 2027-02 |
 | REF-002 | 年次レポートの更新により知見が差し替わる可能性がある | 2027-02 |
+| REF-016〜REF-019 | ツールの公式ドキュメントであり、DORA より更新が速い。**章の完了ごとに必ず再確認する** | 2026-12 |
 
 ## 取得時の注意
 
 REF-001 は2回の取得でカテゴリ表示が一部食い違った（`Trunk-based development` の Core 表示、`Working in small batches` の AI 表示）。**個別 capability のカテゴリを教材に書く場合は、カタログではなく各 capability のページで確認する。**
+
+Claude Code のドキュメントは `docs.claude.com/en/docs/claude-code/*` から `code.claude.com/docs/en/*` へ移動している（2026-09-02 時点で 301 リダイレクト）。**台帳には移動後の URL を記録する。**
+
+**教材に書くツールの挙動は、記述時点の最新版で確認する。** 2026-09-02 に手元で確認したバージョンは `2.1.258`。ネイティブインストールは背景で自動更新されるため、確認日とバージョンの両方を frontmatter の `tool_version` に残す。
