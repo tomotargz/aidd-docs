@@ -33,6 +33,7 @@
 | REF-017 | 一次 | Claude Code: How Claude remembers your project（CLAUDE.md） | https://code.claude.com/docs/en/memory | 2026-09-02 | "CLAUDE.md files are markdown files that give Claude persistent instructions for a project, your personal workflow, or your entire organization. You write these files in plain text; Claude reads them at the start of every session." 配置は managed policy / `~/.claude/CLAUDE.md` / `./CLAUDE.md` または `./.claude/CLAUDE.md` / `./CLAUDE.local.md` の4スコープで、この順に読み込まれる。**1ファイル200行以下を目安とする**。`/init` で雛形を生成できる | foundation/curriculum.md（1章2節・3章3節） |
 | REF-018 | 一次 | Claude Code: Skills | https://code.claude.com/docs/en/skills | 2026-09-02 | "Skills extend what Claude can do. Create a `SKILL.md` file with instructions, and Claude adds it to its toolkit. Claude uses skills when relevant, or you can invoke one directly with `/skill-name`." **本文は使用時にのみ読み込まれる**（"a skill's body loads only when it's used, so long reference material costs almost nothing until you need it"）。配置は `~/.claude/skills/<name>/SKILL.md`（個人）と `.claude/skills/<name>/SKILL.md`（プロジェクト）。**カスタムコマンド（`.claude/commands/`）は skills に統合された** | foundation/curriculum.md（3章3節） |
 | REF-019 | 一次 | Claude Code: Advanced setup | https://code.claude.com/docs/en/setup | 2026-09-02 | 動作要件: macOS 13.0+ / Windows 10 1809+ / Ubuntu 20.04+ / Debian 10+ / Alpine 3.19+、メモリ4GB 以上、インターネット接続必須。インストールは `curl -fsSL https://claude.ai/install.sh \| bash`（macOS・Linux・WSL）。確認は `claude --version`。Pro / Max / Team / Enterprise / Console のいずれかのアカウントが必要で、無料プランは対象外 | foundation/curriculum.md（1章3節） |
+| REF-020 | 一次 | Claude Code: How Claude Code works | https://code.claude.com/docs/en/how-claude-code-works | 2026-09-04 | エージェントの一巡（agentic loop）の全体像は図に示されている。ラベルは `Your prompt` → `Gather context` → `Take action` → `Verify results`（`repeat` で繰り返し）→ `Done`、および図外の `You: interrupt, steer, or add context`。同図の alt 属性は "Your prompt leads to Claude gathering context, taking action, verifying results, and repeating until task complete. You can interrupt at any point."（図の URL は署名付きで失効しうるため、ページ URL を出典とする）/ "When you give Claude a task, it works through three phases: **gather context**, **take action**, and **verify results**." / "These phases blend together." / 何回まわるかはタスクによる（質問はコンテキスト収集のみ、バグ修正は3局面を繰り返す） / "You can interrupt at any point to steer Claude in a different direction, provide additional context, or ask it to try a different approach." / ファイル編集は取り消せる（編集前にスナップショットを取る）/ 権限モードは Auto / Manual / Accept edits / Plan の4つ。**このページは Claude Code についての記述であり、他のコーディングエージェントには言及していない** | foundation/curriculum.md（1章）、docs/01-coding-agent/outline.md（2節・3節） |
 
 ## 再確認が必要な出典
 
@@ -42,7 +43,7 @@
 |---|---|---|
 | REF-001 | DORA は毎年の研究で capability を追加・改訂する。AI カテゴリは特に変動しやすい | 2027-02 |
 | REF-002 | 年次レポートの更新により知見が差し替わる可能性がある | 2027-02 |
-| REF-016〜REF-019 | ツールの公式ドキュメントであり、DORA より更新が速い。**章の完了ごとに必ず再確認する** | 2026-12 |
+| REF-016〜REF-020 | ツールの公式ドキュメントであり、DORA より更新が速い。**章の完了ごとに必ず再確認する** | 2026-12 |
 
 ## 取得時の注意
 
