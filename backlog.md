@@ -56,3 +56,4 @@
 - [x] マージ後のバックログ更新の担当とタイミングを定義する — `CLAUDE.md`（ret-phase-0-1 P4） (PR #5)
 - [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
+- [ ] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生）
