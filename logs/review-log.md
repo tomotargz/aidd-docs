@@ -39,6 +39,23 @@
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Medium | 反論への言及がない | fixed |
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Medium | 前提知識「なし」の領域を説明せずに使用 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Critical | 出典のない断定が一次情報と食い違う | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Critical | 同じ章の別の節と矛盾する断定 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | High | 条件を落とした断定が後の章の主張と逆を向く | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 段落の第1文が予告文で内容を含まない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | High | 受講者の主要な不安に受け皿も予告もない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 省略形を定義より前に使用 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 用語集に未登録の語がある | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | Medium | 段落の要約文が末尾にある | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 一文が長く主語と述語が離れている | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 数え方が前後で一致しない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 節の導入がなく読む目的が示されない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 後の章に持ち越す論点の予告がない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Medium | 主張が定義の言い換えにとどまる | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
 
 ## 集計（3回ルールの判定用）
 
@@ -51,25 +68,36 @@
 | fact | 出力例が実際の出力と一致しない | 1 | 監視中 |
 | fact | 実行のたびに変わる結果を固定の出力例として提示 | 1 | 監視中 |
 | fact | 環境依存が明示されていない | 1 | 監視中 |
-| fact | 記述と出典 URL の内容が一致しない | 1 | 監視中 |
+| fact | 記述と出典 URL の内容が一致しない | 2 | 監視中 |
+| fact | 出典のない断定が一次情報と食い違う | 1 | 監視中 |
 | logic | ツール固有の挙動を一般化して断定 | 1 | 監視中 |
 | logic | 1回の実行結果から因果を断定 | 1 | 監視中 |
 | logic | 見出し直下の主張文と本文が矛盾 | 1 | 監視中 |
 | logic | 反論への言及がない | 1 | 監視中 |
-| paragraph | 1段落に複数トピックが混在 | 1 | 監視中 |
-| paragraph | 段落の要約文が末尾にある | 1 | 監視中 |
+| logic | 同じ章の別の節と矛盾する断定 | 1 | 監視中 |
+| logic | 条件を落とした断定が後の章の主張と逆を向く | 1 | 監視中 |
+| logic | 主張が定義の言い換えにとどまる | 1 | 監視中 |
+| paragraph | 1段落に複数トピックが混在 | 2 | 監視中 |
+| paragraph | 段落の要約文が末尾にある | 2 | 監視中 |
 | paragraph | 第2文以降に新しい主張が混ざる | 1 | 監視中 |
+| paragraph | 段落の第1文が予告文で内容を含まない | 1 | 監視中 |
 | tech-writing | 数値の数え方が原稿から再現できない | 1 | 監視中 |
-| tech-writing | 一文が長く主語と述語が離れている | 1 | 監視中 |
-| tech-writing | 指示語の指す先が一意でない | 1 | 監視中 |
+| tech-writing | 一文が長く主語と述語が離れている | 2 | 監視中 |
+| tech-writing | 指示語の指す先が一意でない | 2 | 監視中 |
 | tech-writing | 動作の主体が不明 | 1 | 監視中 |
 | style | ツール固有の記述が囲みの外にある | 1 | 監視中 |
 | style | 文体の混在（ですます調とである調） | 1 | 監視中 |
-| style | 用語集に未登録の語がある | 1 | 監視中 |
+| style | 用語集に未登録の語がある | 2 | 監視中 |
 | style | 和欧文間のスペース | 1 | 監視中 |
+| style | 同一概念に複数の呼び名 | 1 | 監視中 |
+| style | 省略形を定義より前に使用 | 1 | 監視中 |
 | audience | 読む節か手を動かす節かが判別できない | 1 | 監視中 |
 | audience | 前提知識にない環境依存が未記載 | 1 | 監視中 |
 | audience | 出力例の実物と整形の区別が不明 | 1 | 監視中 |
 | audience | 前提知識「なし」の領域を説明せずに使用 | 1 | 監視中 |
+| audience | 受講者の主要な不安に受け皿も予告もない | 1 | 監視中 |
+| audience | 数え方が前後で一致しない | 1 | 監視中 |
+| audience | 節の導入がなく読む目的が示されない | 1 | 監視中 |
+| audience | 後の章に持ち越す論点の予告がない | 1 | 監視中 |
 
 状態: `監視中`（1〜2件） / `発火`（3件以上、改善タスク未作成） / `対応済`（改善を適用済み）

@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- ツール系の出典を台帳に追加する (branch: curriculum/tool-references)
+- 1節 チャットとエージェントは何が違うか — ドラフト執筆 (branch: draft/ch01-01)
 
 ## 教材
 
@@ -15,8 +15,8 @@
 - [x] 受講者像の確定 — `foundation/audience.md` の未確定項目を埋める (PR #1)
 - [x] 全体の学習目標の決定 — `foundation/curriculum.md` (PR #3)
 - [x] 章立ての設計 — `foundation/curriculum.md`、確定後にこのファイルへ展開 (PR #6)
-- [x] エージェントの正式表記を決める — `glossary.md`。「AIエージェント」「コーディングエージェント」「エージェント」が混在している。1章の執筆前に確定する
-- [x] ツール系の出典を台帳に追加する — `sources/references.md`。`CLAUDE.md` と skills は原則2にかかる。1章の執筆前に確定する
+- [x] エージェントの正式表記を決める — `glossary.md`。「AIエージェント」「コーディングエージェント」「エージェント」が混在している。1章の執筆前に確定する (PR #9)
+- [x] ツール系の出典を台帳に追加する — `sources/references.md`。`CLAUDE.md` と skills は原則2にかかる。1章の執筆前に確定する (PR #10)
 
 ### 章
 
@@ -34,8 +34,8 @@
 
 - [ ] 1章 コーディングエージェントを使った開発
   - [x] アウトライン設計 (PR #11)
-  - [x] 2節 デモ: エージェントに小さな変更を任せる — ドラフト執筆
-  - [ ] 2節 デモ: エージェントに小さな変更を任せる — レビュー反映
+  - [x] 2節 デモ: エージェントに小さな変更を任せる — ドラフト執筆 (PR #13)
+  - [x] 2節 デモ: エージェントに小さな変更を任せる — レビュー反映 (PR #13)
   - [ ] 1節 チャットとエージェントは何が違うか — ドラフト執筆
   - [ ] 3節 自分の環境で再現する — ドラフト執筆
   - [ ] 章の振り返り
@@ -62,6 +62,10 @@
 - [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
 - [x] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生） (PR #12)
+- [x] 箇条書きは番号付きを既定にする規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章1節のレビュー後に指摘） (PR #15)
+- [ ] 1章の README を作る — `docs/01-coding-agent/README.md`。`docs/README.md` が「章の導入と到達目標」を置くと定めているが未作成（1章1節のレビューで指摘）。3節の完成後に着手する
+- [ ] 教材の冒頭に「扱わないこと」を明示する — 置き場所が未作成。`curriculum.md`「扱わないこと」が「教材の冒頭で明示する」と定めている（1章1節のレビューで指摘）
+- [ ] `curriculum.md` の1章の節構成から4節を削除する — `foundation/curriculum.md`。アウトライン設計で削除に合意したが、`curriculum.md` に「4. エージェントがうまくいかないところ」が残っている（1章1節の執筆で発見）
 - [ ] `demo_verified` の書式を1か所に統一する — `foundation/style-guide.md`「6. frontmatter」と `.claude/commands/verify-demo.md`「5.」で書式が食い違っている（1章2節の指摘反映で派生）
 - [ ] `/verify-demo` に `demo_source` と原稿のコードブロックの突き合わせを追加する — `.claude/commands/verify-demo.md`。題材のファイルを正とする運用を機械的に守らせる（1章2節の指摘反映で派生）
 - [ ] 和欧文間スペースのルールと例を一致させる — `foundation/style-guide.md`。「3. 表記」は「入れない」と定め、「5. ツール固有の記述」のテンプレート例は入れている（1章2節のレビューで派生）
