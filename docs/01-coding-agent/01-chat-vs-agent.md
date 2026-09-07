@@ -2,7 +2,7 @@
 title: チャットとエージェントは何が違うか
 chapter: 1
 section: 1
-status: draft
+status: reviewed
 updated: 2026-09-07
 sources:
   - REF-016
