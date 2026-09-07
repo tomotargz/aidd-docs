@@ -14,31 +14,31 @@
 
 | 日付 | 対象 | 章 | カテゴリ | 重大度 | 指摘要約 | 対応 |
 |---|---|---|---|---|---|---|
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Critical | デモ手順が再現できない（前提となる操作の欠落） | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | High | デモ手順に原稿外の知識の補完が必要 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 出力例が実際の出力と一致しない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 実行のたびに変わる結果を固定の出力例として提示 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 環境依存が明示されていない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Critical | ツール固有の挙動を一般化して断定 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Critical | 読む節か手を動かす節かが判別できない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | High | 1回の実行結果から因果を断定 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | High | 見出し直下の主張文と本文が矛盾 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | High | 1段落に複数トピックが混在 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | High | ツール固有の記述が囲みの外にある | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | High | 文体の混在（ですます調とである調） | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | High | 前提知識にない環境依存が未記載 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | High | 出力例の実物と整形の区別が不明 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 数値の数え方が原稿から再現できない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 一文が長く主語と述語が離れている | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 動作の主体が不明 | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | Medium | 段落の要約文が末尾にある | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | Medium | 第2文以降に新しい主張が混ざる | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | Medium | 用語集に未登録の語がある | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | Medium | 和欧文間のスペース | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 記述と出典 URL の内容が一致しない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Medium | 反論への言及がない | 未対応 |
-| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Medium | 前提知識「なし」の領域を説明せずに使用 | 未対応 |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Critical | デモ手順が再現できない（前提となる操作の欠落） | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | High | デモ手順に原稿外の知識の補完が必要 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 出力例が実際の出力と一致しない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 実行のたびに変わる結果を固定の出力例として提示 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 環境依存が明示されていない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Critical | ツール固有の挙動を一般化して断定 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Critical | 読む節か手を動かす節かが判別できない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | High | 1回の実行結果から因果を断定 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | High | 見出し直下の主張文と本文が矛盾 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | High | ツール固有の記述が囲みの外にある | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | High | 文体の混在（ですます調とである調） | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | High | 前提知識にない環境依存が未記載 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | High | 出力例の実物と整形の区別が不明 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 数値の数え方が原稿から再現できない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 一文が長く主語と述語が離れている | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | tech-writing | Medium | 動作の主体が不明 | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | Medium | 段落の要約文が末尾にある | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | paragraph | Medium | 第2文以降に新しい主張が混ざる | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | Medium | 用語集に未登録の語がある | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | style | Medium | 和欧文間のスペース | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Medium | 反論への言及がない | fixed |
+| 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Medium | 前提知識「なし」の領域を説明せずに使用 | fixed |
 
 ## 集計（3回ルールの判定用）
 
