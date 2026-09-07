@@ -62,6 +62,7 @@
 - [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
 - [x] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生） (PR #12)
+- [x] 箇条書きは番号付きを既定にする規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章1節のレビュー後に指摘） (PR #15)
 - [ ] `curriculum.md` の1章の節構成から4節を削除する — `foundation/curriculum.md`。アウトライン設計で削除に合意したが、`curriculum.md` に「4. エージェントがうまくいかないところ」が残っている（1章1節の執筆で発見）
 - [ ] `demo_verified` の書式を1か所に統一する — `foundation/style-guide.md`「6. frontmatter」と `.claude/commands/verify-demo.md`「5.」で書式が食い違っている（1章2節の指摘反映で派生）
 - [ ] `/verify-demo` に `demo_source` と原稿のコードブロックの突き合わせを追加する — `.claude/commands/verify-demo.md`。題材のファイルを正とする運用を機械的に守らせる（1章2節の指摘反映で派生）
