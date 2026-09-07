@@ -39,23 +39,23 @@
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | logic | Medium | 反論への言及がない | fixed |
 | 2026-09-04 | docs/01-coding-agent/02-demo.md | 1-2 | audience | Medium | 前提知識「なし」の領域を説明せずに使用 | fixed |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Critical | 出典のない断定が一次情報と食い違う | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Critical | 同じ章の別の節と矛盾する断定 | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | High | 条件を落とした断定が後の章の主張と逆を向く | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 段落の第1文が予告文で内容を含まない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 1段落に複数トピックが混在 | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | High | 受講者の主要な不安に受け皿も予告もない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 同一概念に複数の呼び名 | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 省略形を定義より前に使用 | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 用語集に未登録の語がある | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | Medium | 段落の要約文が末尾にある | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 一文が長く主語と述語が離れている | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 数え方が前後で一致しない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 節の導入がなく読む目的が示されない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 後の章に持ち越す論点の予告がない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Medium | 主張が定義の言い換えにとどまる | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Medium | 記述と出典 URL の内容が一致しない | 未対応 |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Critical | 出典のない断定が一次情報と食い違う | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Critical | 同じ章の別の節と矛盾する断定 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | High | 条件を落とした断定が後の章の主張と逆を向く | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 段落の第1文が予告文で内容を含まない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | High | 受講者の主要な不安に受け皿も予告もない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 省略形を定義より前に使用 | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | style | Medium | 用語集に未登録の語がある | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | paragraph | Medium | 段落の要約文が末尾にある | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 一文が長く主語と述語が離れている | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 数え方が前後で一致しない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 節の導入がなく読む目的が示されない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 後の章に持ち越す論点の予告がない | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Medium | 主張が定義の言い換えにとどまる | fixed |
+| 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
 
 ## 集計（3回ルールの判定用）
 
