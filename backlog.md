@@ -63,6 +63,8 @@
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
 - [x] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生） (PR #12)
 - [x] 箇条書きは番号付きを既定にする規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章1節のレビュー後に指摘） (PR #15)
+- [ ] 1章の README を作る — `docs/01-coding-agent/README.md`。`docs/README.md` が「章の導入と到達目標」を置くと定めているが未作成（1章1節のレビューで指摘）。3節の完成後に着手する
+- [ ] 教材の冒頭に「扱わないこと」を明示する — 置き場所が未作成。`curriculum.md`「扱わないこと」が「教材の冒頭で明示する」と定めている（1章1節のレビューで指摘）
 - [ ] `curriculum.md` の1章の節構成から4節を削除する — `foundation/curriculum.md`。アウトライン設計で削除に合意したが、`curriculum.md` に「4. エージェントがうまくいかないところ」が残っている（1章1節の執筆で発見）
 - [ ] `demo_verified` の書式を1か所に統一する — `foundation/style-guide.md`「6. frontmatter」と `.claude/commands/verify-demo.md`「5.」で書式が食い違っている（1章2節の指摘反映で派生）
 - [ ] `/verify-demo` に `demo_source` と原稿のコードブロックの突き合わせを追加する — `.claude/commands/verify-demo.md`。題材のファイルを正とする運用を機械的に守らせる（1章2節の指摘反映で派生）
