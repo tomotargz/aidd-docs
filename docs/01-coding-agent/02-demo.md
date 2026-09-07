@@ -10,6 +10,7 @@ sources:
   - REF-021
 tool_version:
   claude_code: "2.1.263"
+demo_source: demos/ch01-02-shop
 demo_verified:
   date: 2026-09-07
   os: macOS 15
