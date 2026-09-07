@@ -3,13 +3,16 @@ title: 自分の環境で再現する
 chapter: 1
 section: 3
 status: draft
-updated: 2026-09-07
+updated: 2026-09-08
 sources:
   - REF-019
   - REF-020
 tool_version:
   claude_code: "2.1.263"
 demo_source: demos/ch01-02-shop
+demo_verified:
+  date: 2026-09-08
+  os: macOS 15
 ---
 
 # 自分の環境で再現する
@@ -49,6 +52,7 @@ Running: native (2.1.263)
 Platform: darwin-arm64
 Search: OK (bundled)
 Auto-updates: enabled
+（環境の情報が数行続きます）
 
 No installation issues found.
 ```
@@ -87,10 +91,34 @@ FAILED (failures=1)
 
 ## 任せてみる
 
-リポジトリのディレクトリでエージェントを起動し、2節と同じ1文を入力します。
+リポジトリのディレクトリでエージェントを起動します。
 
 ```
 $ claude
+```
+
+初めて開くディレクトリでは、そのフォルダを信頼するかの確認が出ます。
+
+```
+Quick safety check: Is this a project you created or one you trust?
+
+❯ No, exit
+  Yes, I trust this folder
+
+Enter to confirm · Esc to cancel
+```
+
+選択されているのは`No, exit`です。そのままEnterを押すと終了します。矢印キーで`Yes, I trust this folder`に移し、Enterを押してください。
+
+起動すると、画面の下に現在の権限モードが出ます。
+
+```
+⏵⏵ auto mode on (shift+tab to cycle)
+```
+
+ここで2節と同じ1文を入力します。
+
+```
 > 失敗しているテストを直してください
 ```
 
@@ -108,7 +136,13 @@ $ git diff
 
 エージェントが動いている最中に`Esc`を押すと、その場で止まります。
 
-実行中のツールの呼び出しは取り消され、エージェントは次の指示を待ちます。2節で「途中のどの時点でも割り込める」と述べたのは、この操作のことです。
+実行中のツールの呼び出しは取り消され、エージェントは次の指示を待ちます。画面には次の表示が出ます。
+
+```
+⎿  Interrupted · What should Claude do instead?
+```
+
+2節で「途中のどの時点でも割り込める」と述べたのは、この操作のことです。
 
 止めずに方向だけ変えることもできます。訂正を入力して`Enter`を押すと、いま動いている操作は続き、その操作が終わった時点でエージェントが訂正を読みます。
 
@@ -116,7 +150,20 @@ $ git diff
 
 ## 変更を取り消す
 
-`Esc`を2回押すと、エージェントが変更する前の状態に巻き戻せます。
+`Esc`を2回押すと、どこまで巻き戻すかを選ぶ画面が出ます。
+
+```
+Rewind
+Restore the code and/or conversation to the point before…
+
+  失敗しているテストを直してください
+  No code changes
+❯ (current)
+
+Enter to continue · Esc to cancel
+```
+
+戻したい時点を矢印キーで選び、Enterで確定します。何もせずに閉じる場合は`Esc`を押します。コードだけを戻すか、会話も戻すかも選べます。
 
 Claude Codeはファイルを編集する前に、そのファイルの内容を保存しています。巻き戻しはこの保存された内容を使います。「元に戻して」と言葉で頼むこともできます。
 
@@ -139,7 +186,16 @@ Claude Codeはファイルを編集する前に、そのファイルの内容を
 3. Accept edits。ファイルの編集と`mkdir`、`mv`のような操作は確認せずに行い、それ以外のコマンドでは確認を求めます。
 4. Plan。ファイルを変更せず、調べて計画を提案するところまでを行います。
 
-`Shift+Tab`を1回ずつ押して、4つのモードを一巡させてください。表示が切り替わることを確認できれば十分です。
+`Shift+Tab`を1回ずつ押すと、画面の下の表示がこの順に変わります。
+
+```
+⏵⏵ auto mode on (shift+tab to cycle)
+⏸  manual mode on
+⏵⏵ accept edits on (shift+tab to cycle)
+⏸  plan mode on (shift+tab to cycle)
+```
+
+4回押すとautoに戻ります。表示が一巡することを確認できれば十分です。
 
 どのモードで作業するか、チームでどう揃えるかは、この節では決めません。人の確認をどこに置くかは4章で扱います。
 

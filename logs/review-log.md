@@ -56,10 +56,10 @@
 | 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | audience | Medium | 後の章に持ち越す論点の予告がない | fixed |
 | 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | logic | Medium | 主張が定義の言い換えにとどまる | fixed |
 | 2026-09-07 | docs/01-coding-agent/01-chat-vs-agent.md | 1-1 | fact | Medium | 記述と出典 URL の内容が一致しない | fixed |
-| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Critical | デモ手順が再現できない（前提となる操作の欠落） | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | High | デモ手順に原稿外の知識の補完が必要 | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Medium | 出力例が実際の出力と一致しない | 未対応 |
-| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Medium | 画面表示を示さずに確認を求めている | 未対応 |
+| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Critical | デモ手順が再現できない（前提となる操作の欠落） | fixed |
+| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | High | デモ手順に原稿外の知識の補完が必要 | fixed |
+| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Medium | 出力例が実際の出力と一致しない | fixed |
+| 2026-09-07 | docs/01-coding-agent/03-reproduce.md | 1-3 | fact | Medium | 画面表示を示さずに確認を求めている | fixed |
 
 ## 集計（3回ルールの判定用）
 
