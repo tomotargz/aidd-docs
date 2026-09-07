@@ -33,7 +33,12 @@
 ```
 
 - [ ] 1章 コーディングエージェントを使った開発
-  - [x] アウトライン設計
+  - [x] アウトライン設計 (PR #11)
+  - [x] 2節 デモ: エージェントに小さな変更を任せる — ドラフト執筆
+  - [ ] 2節 デモ: エージェントに小さな変更を任せる — レビュー反映
+  - [ ] 1節 チャットとエージェントは何が違うか — ドラフト執筆
+  - [ ] 3節 自分の環境で再現する — ドラフト執筆
+  - [ ] 章の振り返り
 - [ ] 2章 コーディングだけ速くしても全体は速くならない
 - [ ] 3章 スモールバッチとコンテキスト
 - [ ] 4章 人による確認
@@ -56,4 +61,7 @@
 - [x] マージ後のバックログ更新の担当とタイミングを定義する — `CLAUDE.md`（ret-phase-0-1 P4） (PR #5)
 - [x] タスクと PR の粒度に目安を設ける — `CLAUDE.md`（ret-phase-0-1 P1 のレビューで派生） (PR #5)
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
-- [ ] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生）
+- [x] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生） (PR #12)
+- [ ] `demo_verified` の書式を1か所に統一する — `foundation/style-guide.md`「6. frontmatter」と `.claude/commands/verify-demo.md`「5.」で書式が食い違っている（1章2節の指摘反映で派生）
+- [ ] `/verify-demo` に `demo_source` と原稿のコードブロックの突き合わせを追加する — `.claude/commands/verify-demo.md`。題材のファイルを正とする運用を機械的に守らせる（1章2節の指摘反映で派生）
+- [ ] 和欧文間スペースのルールと例を一致させる — `foundation/style-guide.md`。「3. 表記」は「入れない」と定め、「5. ツール固有の記述」のテンプレート例は入れている（1章2節のレビューで派生）
