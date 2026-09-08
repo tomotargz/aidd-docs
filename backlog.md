@@ -65,9 +65,9 @@
 - [x] `curriculum.md` を「決定」と「判断の記録」の2部に分ける — `foundation/curriculum.md`（PR #6 のレビューで派生） (PR #7)
 - [x] 本文で強調記法を使わない規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章2節のドラフトのレビューで派生） (PR #12)
 - [x] 箇条書きは番号付きを既定にする規約を追加する — `foundation/style-guide.md`・`.claude/agents/style-reviewer.md`（1章1節のレビュー後に指摘） (PR #15)
+- [x] 応答が長くなる場合に分割を提案する規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1） (PR #18)
+- [x] 複数の指摘に回答するときは1件ずつ返す規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1） (PR #18)
 - [x] foundation から変更理由を出し、コミットメッセージに移す — `foundation/curriculum.md`・`glossary.md`・`style-guide.md`。理由が3か所に重複しており、curriculum.md の第2部だけで5304字あった
-- [ ] 応答が長くなる場合に分割を提案する規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1）
-- [ ] 複数の指摘に回答するときは1件ずつ返す規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1）
 - [ ] 同語反復と抽象名詞の主語を避ける項目を追加する — `foundation/style-guide.md`「2. テクニカルライティング」（ret-ch01 P2）
 - [ ] 日本語としての自然さを見る観点を追加する — `.claude/agents/writing-reviewer.md`（ret-ch01 P2）
 - [ ] 環境が整っていない状態からの検証を求める — `.claude/commands/verify-demo.md`（ret-ch01 P3）
