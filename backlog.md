@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 執筆中の点検を追加する（3回ルール3件） (branch: process/draft-checks)
+- 表記の規約を4件追加する (branch: process/style-rules)
 
 ## 教材
 
@@ -68,19 +68,19 @@
 - [x] 応答が長くなる場合に分割を提案する規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1） (PR #18)
 - [x] 複数の指摘に回答するときは1件ずつ返す規約を追加する — `CLAUDE.md`「応答の作法」（ret-ch01 P1） (PR #18)
 - [x] foundation から変更理由を出し、コミットメッセージに移す — `foundation/curriculum.md`・`glossary.md`・`style-guide.md`。理由が3か所に重複しており、curriculum.md の第2部だけで5304字あった
-- [ ] 同語反復と抽象名詞の主語を避ける項目を追加する — `foundation/style-guide.md`「2. テクニカルライティング」（ret-ch01 P2）
+- [x] 同語反復と抽象名詞の主語を避ける項目を追加する — `foundation/style-guide.md`「2. テクニカルライティング」（ret-ch01 P2）
 - [ ] 日本語としての自然さを見る観点を追加する — `.claude/agents/writing-reviewer.md`（ret-ch01 P2）
 - [ ] 環境が整っていない状態からの検証を求める — `.claude/commands/verify-demo.md`（ret-ch01 P3）
 - [ ] 章の執筆前に表記の規約を点検する手順を追加する — `.claude/commands/outline.md`（ret-ch01 P4）
 - [ ] 振り返りの反映先の一覧に `CLAUDE.md` を加える — `retrospectives/README.md`・`.claude/commands/retro.md`（ret-ch01）
 - [x] 【3回ルール】1段落1トピックを執筆中に確かめる仕組みを作る — `.claude/commands/draft.md`。`paragraph`「1段落に複数トピックが混在」が3件目
 - [x] 【3回ルール】拾い読みテストを執筆後ではなく執筆中に行わせる — `.claude/commands/draft.md`。`paragraph`「段落の要約文が末尾にある」が3件目
-- [ ] 【3回ルール】段落の第1文で指示語を使わない規約を追加する — `foundation/style-guide.md`。`tech-writing`「指示語の指す先が一意でない」が3件目
+- [x] 【3回ルール】段落の第1文で指示語を使わない規約を追加する — `foundation/style-guide.md`。`tech-writing`「指示語の指す先が一意でない」が3件目
 - [x] 【3回ルール】専門用語は本文で使う前に用語集へ登録する手順を作る — `.claude/commands/draft.md`・`foundation/glossary.md`。`style`「用語集に未登録の語がある」が3件目
-- [ ] 節全体がツール固有になる節の書き方を規約にする — `foundation/style-guide.md`「5. ツール固有の記述」。個々の記述を囲みに入れる前提しかなく、1章3節のような節を冒頭の一括宣言で扱う形式が未規定（1章3節のレビューで派生）
+- [x] 節全体がツール固有になる節の書き方を規約にする — `foundation/style-guide.md`「5. ツール固有の記述」。個々の記述を囲みに入れる前提しかなく、1章3節のような節を冒頭の一括宣言で扱う形式が未規定（1章3節のレビューで派生）
 - [ ] 1章の README を作る — `docs/01-coding-agent/README.md`。`docs/README.md` が「章の導入と到達目標」を置くと定めているが未作成（1章1節のレビューで指摘）。3節の完成後に着手する
 - [ ] 教材の冒頭に「扱わないこと」を明示する — 置き場所が未作成。`curriculum.md`「扱わないこと」が「教材の冒頭で明示する」と定めている（1章1節のレビューで指摘）
 - [ ] `curriculum.md` の1章の節構成から4節を削除する — `foundation/curriculum.md`。アウトライン設計で削除に合意したが、`curriculum.md` に「4. エージェントがうまくいかないところ」が残っている（1章1節の執筆で発見）
 - [ ] `demo_verified` の書式を1か所に統一する — `foundation/style-guide.md`「6. frontmatter」と `.claude/commands/verify-demo.md`「5.」で書式が食い違っている（1章2節の指摘反映で派生）
 - [ ] `/verify-demo` に `demo_source` と原稿のコードブロックの突き合わせを追加する — `.claude/commands/verify-demo.md`。題材のファイルを正とする運用を機械的に守らせる（1章2節の指摘反映で派生）
-- [ ] 和欧文間スペースのルールと例を一致させる — `foundation/style-guide.md`。「3. 表記」は「入れない」と定め、「5. ツール固有の記述」のテンプレート例は入れている（1章2節のレビューで派生）
+- [x] 和欧文間スペースのルールと例を一致させる — `foundation/style-guide.md`。「3. 表記」は「入れない」と定め、「5. ツール固有の記述」のテンプレート例は入れている（1章2節のレビューで派生）
