@@ -83,11 +83,12 @@ $1 に含まれるデモ手順を検証します。
 検証を通過したら、原稿の frontmatter に次を追記します。
 
 ```yaml
-demo_verified: 2026-08-22          # 検証日
-demo_environment:                   # 検証した環境
+demo_verified:       # /verify-demo で実行確認した日と環境
+  date: 2026-08-22
   os: macOS 15
-  claude_code: "2.0"
 ```
+
+書式は `foundation/style-guide.md`「6. frontmatter」が正です。ツールのバージョンは `tool_version` に書きます。
 
 **検証日は実際に実行した日を書きます。** 環境が変われば再検証が必要になるため、この記録が再検証の判断材料になります。
 
