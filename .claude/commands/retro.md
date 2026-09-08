@@ -8,9 +8,9 @@ $1 の振り返りを行います。
 ## 対象範囲
 
 振り返るのは**開発プロセス**であり、教材の内容ではありません。内容の改善は `/review-doc` の役割です。
-改善の反映先は次の4つに限定します。それ以外を変えたくなった場合、プロセスの問題ではない可能性を疑ってください。
+改善の反映先は次の5つに限定します。それ以外を変えたくなった場合、プロセスの問題ではない可能性を疑ってください。
 
-`foundation/style-guide.md` / `foundation/review-criteria.md` / `.claude/agents/*` / `.claude/commands/*`
+`CLAUDE.md` / `foundation/style-guide.md` / `foundation/review-criteria.md` / `.claude/agents/*` / `.claude/commands/*`
 
 ## 手順
 
