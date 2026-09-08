@@ -4,6 +4,8 @@
 
 ```
 docs/
+  00-introduction/
+    README.md             教材の冒頭。目的・想定読者・扱わないこと・読み方・目次
   01-<章のスラッグ>/
     outline.md              /outline で作成。合意済みの設計図
     README.md               章の導入と到達目標
