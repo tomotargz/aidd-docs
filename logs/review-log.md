@@ -121,6 +121,27 @@
 | 2026-09-08 | docs/00-introduction/README.md | 0 | style | Medium | 見出し直下の主張文が1文になっていない | fixed |
 | 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 研修と自習の区別が数値から読み取れない | fixed |
 | 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 書式の例が実物の形になっていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 参照先の対応づけが一意でない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 前提としている環境が列挙から漏れている | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | High | 前提知識では意味を取れない語で到達目標を定義 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | High | 定義前に省略形を使用 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 段落の第1文が前置きや指示語で内容を含まない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | High | 節どうしの依存関係が示されていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | Medium | 数値の適用先が読者の状況と合っていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | Medium | 結論が根拠より狭い範囲に圧縮されている | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | H1 と frontmatter の title が一致しない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 見出し直下の主張文が1文になっていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 前の文書と準備物の記述が食い違う | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 参照の順序が循環している | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 抽象語のまま説明されず読者の関心に応えていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 同じ語を1文で2回使用 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 動作の主語が抽象名詞 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 主語が省かれ文が単独で閉じない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 件数を述べたリストが番号付きでない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | Medium | 段落の切り分けの基準が示されていない | fixed |
 
 ## 集計（3回ルールの判定用）
 
@@ -136,11 +157,14 @@
 | fact | 一次情報より広い範囲で断定 | 1 | 監視中 |
 | fact | 出典のない断定が一次情報と食い違う | 1 | 監視中 |
 | fact | 出典の名称・URL・確認日が本文にない | 1 | 監視中 |
+| fact | 前提としている環境が列挙から漏れている | 1 | 監視中 |
+| fact | 参照先の対応づけが一意でない | 1 | 監視中 |
 | fact | 同じ文書内で章の役割の説明が食い違う | 1 | 監視中 |
 | fact | 安全機構の範囲を実際より広く記述 | 1 | 監視中 |
 | fact | 実行のたびに変わる結果を固定の出力例として提示 | 1 | 監視中 |
 | fact | 実行記録であることと省略の方針が未記載 | 1 | 監視中 |
 | fact | 宣言が複数の場所で重複している | 1 | 監視中 |
+| fact | 数値の適用先が読者の状況と合っていない | 1 | 監視中 |
 | fact | 機能が働く条件が抜けている | 1 | 監視中 |
 | fact | 画面表示を示さずに確認を求めている | 1 | 監視中 |
 | logic | 見出し直下の主張文と本文が矛盾 | 2 | 監視中 |
@@ -159,48 +183,58 @@
 | logic | 根拠のない数値 | 1 | 監視中 |
 | logic | 根拠のない断定 | 1 | 監視中 |
 | logic | 章の主張を回収していない | 1 | 監視中 |
+| logic | 節どうしの依存関係が示されていない | 1 | 監視中 |
+| logic | 結論が根拠より狭い範囲に圧縮されている | 1 | 監視中 |
 | logic | 規約にない前提を断定している | 1 | 監視中 |
-| paragraph | 1段落に複数トピックが混在 | 4 | 発火 |
+| paragraph | 1段落に複数トピックが混在 | 5 | 発火 |
 | paragraph | 段落の要約文が末尾にある | 3 | 発火 |
+| paragraph | 段落の第1文が前置きや指示語で内容を含まない | 2 | 監視中 |
 | paragraph | 第2文以降に新しい主張が混ざる | 2 | 監視中 |
 | paragraph | 段落に要約文がない | 1 | 監視中 |
+| paragraph | 段落の切り分けの基準が示されていない | 1 | 監視中 |
 | paragraph | 段落の第1文が予告文で内容を含まない | 1 | 監視中 |
-| paragraph | 段落の第1文が前置きや指示語で内容を含まない | 1 | 監視中 |
 | paragraph | 見出し直下に主張文がない | 1 | 監視中 |
-| tech-writing | 指示語の指す先が一意でない | 4 | 発火 |
+| tech-writing | 指示語の指す先が一意でない | 5 | 発火 |
 | tech-writing | 一文が長く主語と述語が離れている | 2 | 監視中 |
 | tech-writing | 並列が文法的に揃っていない | 2 | 監視中 |
 | tech-writing | 動作の主体が不明 | 2 | 監視中 |
+| tech-writing | 動作の主語が抽象名詞 | 2 | 監視中 |
+| tech-writing | 同じ語を1文で2回使用 | 2 | 監視中 |
 | tech-writing | 曖昧語を使用 | 2 | 監視中 |
+| tech-writing | 主語が省かれ文が単独で閉じない | 1 | 監視中 |
 | tech-writing | 主語と述語がねじれている | 1 | 監視中 |
-| tech-writing | 動作の主語が抽象名詞 | 1 | 監視中 |
-| tech-writing | 同じ語を1文で2回使用 | 1 | 監視中 |
+| tech-writing | 件数を述べたリストが番号付きでない | 1 | 監視中 |
 | tech-writing | 数値の数え方が原稿から再現できない | 1 | 監視中 |
 | tech-writing | 日本語として読み下しにくい | 1 | 監視中 |
 | style | 用語集に未登録の語がある | 4 | 発火 |
+| style | 同一概念に複数の呼び名 | 3 | 発火 |
 | style | ツール固有の記述が囲みの外にある | 2 | 監視中 |
 | style | 使用禁止の別表記を使用 | 2 | 監視中 |
-| style | 同一概念に複数の呼び名 | 2 | 監視中 |
 | style | 和欧文間のスペース | 2 | 監視中 |
+| style | 定義前に省略形を使用 | 2 | 監視中 |
+| style | 見出し直下の主張文が1文になっていない | 2 | 監視中 |
+| style | H1 と frontmatter の title が一致しない | 1 | 監視中 |
 | style | 受講者を主語にした決めつけ | 1 | 監視中 |
-| style | 定義前に省略形を使用 | 1 | 監視中 |
 | style | 文体の混在（ですます調とである調） | 1 | 監視中 |
 | style | 省略形を定義より前に使用 | 1 | 監視中 |
 | style | 英文引用の形式が章をまたいで揺れている | 1 | 監視中 |
 | style | 表記の大文字小文字の揺れ | 1 | 監視中 |
-| style | 見出し直下の主張文が1文になっていない | 1 | 監視中 |
 | style | 題材の名前が節をまたいで揃っていない | 1 | 監視中 |
 | audience | 予告した操作が渡されない | 1 | 監視中 |
 | audience | 出力例の実物と整形の区別が不明 | 1 | 監視中 |
 | audience | 到達点が示されていない | 1 | 監視中 |
 | audience | 前の手順の結果により次の手順を試せない | 1 | 監視中 |
+| audience | 前の文書と準備物の記述が食い違う | 1 | 監視中 |
 | audience | 前提知識「なし」の領域を説明せずに使用 | 1 | 監視中 |
+| audience | 前提知識では意味を取れない語で到達目標を定義 | 1 | 監視中 |
 | audience | 前提知識との違いが示されず新規性が伝わらない | 1 | 監視中 |
 | audience | 前提知識にない環境依存が未記載 | 1 | 監視中 |
+| audience | 参照の順序が循環している | 1 | 監視中 |
 | audience | 受講者の主要な不安に受け皿も予告もない | 1 | 監視中 |
 | audience | 完了条件が示されていない | 1 | 監視中 |
 | audience | 後の章に持ち越す論点の予告がない | 1 | 監視中 |
 | audience | 必要な準備物への案内がない | 1 | 監視中 |
+| audience | 抽象語のまま説明されず読者の関心に応えていない | 1 | 監視中 |
 | audience | 操作の前後関係が書かれていない | 1 | 監視中 |
 | audience | 数え方が前後で一致しない | 1 | 監視中 |
 | audience | 書式の例が実物の形になっていない | 1 | 監視中 |
