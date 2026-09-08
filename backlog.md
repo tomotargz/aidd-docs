@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-（次の作業を開始するときに記入する）
+- foundation から変更理由を出す (branch: process/rationale-to-commits)
 
 ## 教材
 
@@ -20,7 +20,7 @@
 
 ### 章
 
-`foundation/curriculum.md` 第1部「章立て」から展開した。
+`foundation/curriculum.md`「章立て」から展開した。
 
 **節は、その章のアウトラインが合意できた時点で展開する。** 節構成は `/outline` で変わりうるため、先に写すと二重管理になる。展開の書式は次のとおり。
 
