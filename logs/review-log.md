@@ -90,6 +90,37 @@
 | 2026-09-08 | docs/01-coding-agent/03-reproduce.md | 1-3 | style | Medium | 題材の名前が節をまたいで揃っていない | fixed |
 | 2026-09-08 | docs/01-coding-agent/03-reproduce.md | 1-3 | audience | Medium | 完了条件が示されていない | fixed |
 | 2026-09-08 | docs/01-coding-agent/03-reproduce.md | 1-3 | audience | Medium | 環境によって手順が変わる箇所が未記載 | fixed |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | fact | High | 同じ文書内で章の役割の説明が食い違う | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | fact | High | 出典の名称・URL・確認日が本文にない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | High | 引用から導けない主張を引用の直後に置いている | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | High | 扱わない理由と提供するものが同じ性質で矛盾する | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | High | 規約にない前提を断定している | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | High | 基準文書と食い違う記述 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | paragraph | High | 段落の第1文が前置きや指示語で内容を含まない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | paragraph | High | 1段落に複数トピックが混在 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | paragraph | High | 段落に要約文がない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | High | 使用禁止の別表記を使用 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | High | 定義前に省略形を使用 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | High | 用語集に未登録の語がある | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | High | 受講者を主語にした決めつけ | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | audience | High | 到達点が示されていない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | audience | High | 必要な準備物への案内がない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | audience | High | 前提知識との違いが示されず新規性が伝わらない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | fact | Medium | 宣言が複数の場所で重複している | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | Medium | 根拠のない断定 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | logic | Medium | 数値が何のものか定まっていない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 同じ語を1文で2回使用 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 動作の主語が抽象名詞 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 曖昧語を使用 | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 並列が文法的に揃っていない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | tech-writing | Medium | 日本語として読み下しにくい | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | paragraph | Medium | 第2文以降に新しい主張が混ざる | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | Medium | 和欧文間のスペース | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | Medium | 英文引用の形式が章をまたいで揺れている | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | style | Medium | 見出し直下の主張文が1文になっていない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 研修と自習の区別が数値から読み取れない | 未対応 |
+| 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 書式の例が実物の形になっていない | 未対応 |
 
 ## 集計（3回ルールの判定用）
 
@@ -104,9 +135,12 @@
 | fact | 記述と出典 URL の内容が一致しない | 2 | 監視中 |
 | fact | 一次情報より広い範囲で断定 | 1 | 監視中 |
 | fact | 出典のない断定が一次情報と食い違う | 1 | 監視中 |
+| fact | 出典の名称・URL・確認日が本文にない | 1 | 監視中 |
+| fact | 同じ文書内で章の役割の説明が食い違う | 1 | 監視中 |
 | fact | 安全機構の範囲を実際より広く記述 | 1 | 監視中 |
 | fact | 実行のたびに変わる結果を固定の出力例として提示 | 1 | 監視中 |
 | fact | 実行記録であることと省略の方針が未記載 | 1 | 監視中 |
+| fact | 宣言が複数の場所で重複している | 1 | 監視中 |
 | fact | 機能が働く条件が抜けている | 1 | 監視中 |
 | fact | 画面表示を示さずに確認を求めている | 1 | 監視中 |
 | logic | 見出し直下の主張文と本文が矛盾 | 2 | 監視中 |
@@ -116,43 +150,63 @@
 | logic | 前の節の予告が回収されていない | 1 | 監視中 |
 | logic | 反論への言及がない | 1 | 監視中 |
 | logic | 同じ章の別の節と矛盾する断定 | 1 | 監視中 |
+| logic | 基準文書と食い違う記述 | 1 | 監視中 |
+| logic | 引用から導けない主張を引用の直後に置いている | 1 | 監視中 |
+| logic | 扱わない理由と提供するものが同じ性質で矛盾する | 1 | 監視中 |
 | logic | 提示した因果が後段で回収されない | 1 | 監視中 |
+| logic | 数値が何のものか定まっていない | 1 | 監視中 |
 | logic | 条件を落とした断定が後の章の主張と逆を向く | 1 | 監視中 |
 | logic | 根拠のない数値 | 1 | 監視中 |
+| logic | 根拠のない断定 | 1 | 監視中 |
 | logic | 章の主張を回収していない | 1 | 監視中 |
-| paragraph | 1段落に複数トピックが混在 | 3 | 発火 |
+| logic | 規約にない前提を断定している | 1 | 監視中 |
+| paragraph | 1段落に複数トピックが混在 | 4 | 発火 |
 | paragraph | 段落の要約文が末尾にある | 3 | 発火 |
+| paragraph | 第2文以降に新しい主張が混ざる | 2 | 監視中 |
+| paragraph | 段落に要約文がない | 1 | 監視中 |
 | paragraph | 段落の第1文が予告文で内容を含まない | 1 | 監視中 |
-| paragraph | 第2文以降に新しい主張が混ざる | 1 | 監視中 |
+| paragraph | 段落の第1文が前置きや指示語で内容を含まない | 1 | 監視中 |
 | paragraph | 見出し直下に主張文がない | 1 | 監視中 |
-| tech-writing | 指示語の指す先が一意でない | 3 | 発火 |
+| tech-writing | 指示語の指す先が一意でない | 4 | 発火 |
 | tech-writing | 一文が長く主語と述語が離れている | 2 | 監視中 |
+| tech-writing | 並列が文法的に揃っていない | 2 | 監視中 |
 | tech-writing | 動作の主体が不明 | 2 | 監視中 |
-| tech-writing | 並列が文法的に揃っていない | 1 | 監視中 |
+| tech-writing | 曖昧語を使用 | 2 | 監視中 |
 | tech-writing | 主語と述語がねじれている | 1 | 監視中 |
+| tech-writing | 動作の主語が抽象名詞 | 1 | 監視中 |
+| tech-writing | 同じ語を1文で2回使用 | 1 | 監視中 |
 | tech-writing | 数値の数え方が原稿から再現できない | 1 | 監視中 |
-| tech-writing | 曖昧語を使用 | 1 | 監視中 |
-| style | 用語集に未登録の語がある | 3 | 発火 |
+| tech-writing | 日本語として読み下しにくい | 1 | 監視中 |
+| style | 用語集に未登録の語がある | 4 | 発火 |
 | style | ツール固有の記述が囲みの外にある | 2 | 監視中 |
+| style | 使用禁止の別表記を使用 | 2 | 監視中 |
 | style | 同一概念に複数の呼び名 | 2 | 監視中 |
-| style | 使用禁止の別表記を使用 | 1 | 監視中 |
-| style | 和欧文間のスペース | 1 | 監視中 |
+| style | 和欧文間のスペース | 2 | 監視中 |
+| style | 受講者を主語にした決めつけ | 1 | 監視中 |
+| style | 定義前に省略形を使用 | 1 | 監視中 |
 | style | 文体の混在（ですます調とである調） | 1 | 監視中 |
 | style | 省略形を定義より前に使用 | 1 | 監視中 |
+| style | 英文引用の形式が章をまたいで揺れている | 1 | 監視中 |
 | style | 表記の大文字小文字の揺れ | 1 | 監視中 |
+| style | 見出し直下の主張文が1文になっていない | 1 | 監視中 |
 | style | 題材の名前が節をまたいで揃っていない | 1 | 監視中 |
 | audience | 予告した操作が渡されない | 1 | 監視中 |
 | audience | 出力例の実物と整形の区別が不明 | 1 | 監視中 |
+| audience | 到達点が示されていない | 1 | 監視中 |
 | audience | 前の手順の結果により次の手順を試せない | 1 | 監視中 |
 | audience | 前提知識「なし」の領域を説明せずに使用 | 1 | 監視中 |
+| audience | 前提知識との違いが示されず新規性が伝わらない | 1 | 監視中 |
 | audience | 前提知識にない環境依存が未記載 | 1 | 監視中 |
 | audience | 受講者の主要な不安に受け皿も予告もない | 1 | 監視中 |
 | audience | 完了条件が示されていない | 1 | 監視中 |
 | audience | 後の章に持ち越す論点の予告がない | 1 | 監視中 |
+| audience | 必要な準備物への案内がない | 1 | 監視中 |
 | audience | 操作の前後関係が書かれていない | 1 | 監視中 |
 | audience | 数え方が前後で一致しない | 1 | 監視中 |
+| audience | 書式の例が実物の形になっていない | 1 | 監視中 |
 | audience | 環境によって手順が変わる箇所が未記載 | 1 | 監視中 |
 | audience | 画面表示の読み方が説明されていない | 1 | 監視中 |
+| audience | 研修と自習の区別が数値から読み取れない | 1 | 監視中 |
 | audience | 節の導入がなく読む目的が示されない | 1 | 監視中 |
 | audience | 読む節か手を動かす節かが判別できない | 1 | 監視中 |
 
