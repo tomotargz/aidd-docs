@@ -121,27 +121,27 @@
 | 2026-09-08 | docs/00-introduction/README.md | 0 | style | Medium | 見出し直下の主張文が1文になっていない | fixed |
 | 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 研修と自習の区別が数値から読み取れない | fixed |
 | 2026-09-08 | docs/00-introduction/README.md | 0 | audience | Medium | 書式の例が実物の形になっていない | fixed |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 参照先の対応づけが一意でない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 前提としている環境が列挙から漏れている | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | High | 前提知識では意味を取れない語で到達目標を定義 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | High | 定義前に省略形を使用 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 1段落に複数トピックが混在 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 段落の第1文が前置きや指示語で内容を含まない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | High | 節どうしの依存関係が示されていない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | Medium | 数値の適用先が読者の状況と合っていない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | Medium | 結論が根拠より狭い範囲に圧縮されている | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 同一概念に複数の呼び名 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | H1 と frontmatter の title が一致しない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 見出し直下の主張文が1文になっていない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 前の文書と準備物の記述が食い違う | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 参照の順序が循環している | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 抽象語のまま説明されず読者の関心に応えていない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 同じ語を1文で2回使用 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 動作の主語が抽象名詞 | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 主語が省かれ文が単独で閉じない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 件数を述べたリストが番号付きでない | 未対応 |
-| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | Medium | 段落の切り分けの基準が示されていない | 未対応 |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 参照先の対応づけが一意でない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | High | 前提としている環境が列挙から漏れている | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | High | 前提知識では意味を取れない語で到達目標を定義 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | High | 定義前に省略形を使用 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | High | 段落の第1文が前置きや指示語で内容を含まない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | High | 節どうしの依存関係が示されていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | fact | Medium | 数値の適用先が読者の状況と合っていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | logic | Medium | 結論が根拠より狭い範囲に圧縮されている | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | H1 と frontmatter の title が一致しない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | style | Medium | 見出し直下の主張文が1文になっていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 前の文書と準備物の記述が食い違う | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 参照の順序が循環している | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | audience | Medium | 抽象語のまま説明されず読者の関心に応えていない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 同じ語を1文で2回使用 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 動作の主語が抽象名詞 | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 主語が省かれ文が単独で閉じない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 件数を述べたリストが番号付きでない | fixed |
+| 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | Medium | 段落の切り分けの基準が示されていない | fixed |
 
 ## 集計（3回ルールの判定用）
 
