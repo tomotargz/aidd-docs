@@ -27,16 +27,16 @@ sources:
 音の増幅器なら、演奏も雑音も同じように大きくなります。DORAはAIをこの増幅器にたとえています。
 
 > "AI acts as an amplifier, but the greatest returns come from focusing on the underlying sociotechnical systems."
+> 訳: AIは増幅器として働くが、最も大きな成果は、その下にある人と技術の仕組みに手を入れたときに得られる。
 > 出典: https://dora.dev/research/?view=detail （2026-09-08 確認）
-
-AIは増幅器として働くが、最も大きな成果は、その下にある人と技術の仕組みに手を入れたときに得られる、と述べています。
 
 何が大きくなるのかも、DORAは書いています。
 
 > "AI's primary role is as an amplifier, magnifying an organization's existing strengths and weaknesses."
+> 訳: AIの主な役割は増幅器であり、組織にいまある強みと弱みを大きくする。
 > 出典: https://dora.dev/research/2025/dora-report/ （2026-09-09 確認）
 
-AIの主な役割は増幅器であり、組織にいまある強みと弱みを大きくする、と述べています。大きくなるのは強みだけではありません。
+大きくなるのは強みだけではありません。
 
 ## 強みだけでなく弱みも大きくなる
 
@@ -45,9 +45,8 @@ AIの利用が進んでいる組織では、届ける量と不安定さの両方
 1節でも引いたDORAの一文を、ここでは2つの指標に分けて見ます。
 
 > "higher AI adoption is associated with an increase in both software delivery throughput and software delivery instability."
+> 訳: AIの導入が進んでいることは、届ける量が増えていることと、不安定さが増していることの両方に関連している。
 > 出典: https://dora.dev/insights/balancing-ai-tensions/ （2026-09-09 確認）
-
-AIの導入が進んでいることは、届ける量が増えていることと、不安定さが増していることの両方に関連している、と述べています。
 
 届ける量とは、一定の期間に本番へ届けた変更の量です。不安定さとは、届けた変更が問題を起こす割合です。上がるのは片方だけではありません。
 
@@ -64,9 +63,8 @@ AIの導入が進んでいることは、届ける量が増えていることと
 下地の代表例は、エージェントに渡せる情報です。DORAは、内部のデータにAIが直接アクセスできることの効果をこう述べています。
 
 > "giving teams AI tools that can access internal data directly amplifies the positive impact of AI adoption, serving as a statistically significant multiplier for individual effectiveness and code quality"
+> 訳: 内部のデータに直接アクセスできるAIツールをチームに与えることは、AI導入の効果を増幅し、個人の生産性とコードの品質に対して統計的に有意な倍率として働く。
 > 出典: https://dora.dev/capabilities/ai-accessible-internal-data/ （2026-09-09 確認）
-
-内部のデータに直接アクセスできるAIツールをチームに与えることは、AI導入の効果を増幅し、個人の生産性とコードの品質に対して統計的に有意な倍率として働く、と述べています。
 
 渡せる情報がなければ、AIは足りない前提を補って書きます。1章2節で置いた`CLAUDE.md`は、渡せる情報の一例です。テストコードのないリポジトリでは、エージェントが変更を確かめる手段も増えません。
 
