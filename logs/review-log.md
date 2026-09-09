@@ -142,27 +142,27 @@
 | 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 主語が省かれ文が単独で閉じない | fixed |
 | 2026-09-08 | docs/01-coding-agent/README.md | 1 | tech-writing | Medium | 件数を述べたリストが番号付きでない | fixed |
 | 2026-09-08 | docs/01-coding-agent/README.md | 1 | paragraph | Medium | 段落の切り分けの基準が示されていない | fixed |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | Critical | 前の章の記述と矛盾する断定 | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | Critical | 用語集に未登録の語がある | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | High | 経験的な主張に出典がない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | High | 主張を支える根拠が成立していない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | High | 条件つきの命題を無条件に断定 | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | High | 段落に要約文がない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | High | 1段落に複数トピックが混在 | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | High | 用語集に未登録の語がある | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | Medium | 反論への言及がない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | Medium | 1件の事例から一般化している | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | Medium | 主張文が図の位置参照に依存している | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | Medium | 段落が短く意味の単位になっていない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 同じ語を1文で2回使用 | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 理由を述べる位置に事実の言い換えがある | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 日本語として読み下しにくい | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | Medium | 同一概念に複数の呼び名 | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 後の章との担当範囲が読み取れない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 前の節と重複し新しく分かることが少ない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 比喩の指す対象が定まらない | 未対応 |
-| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | Medium | 引用の来歴が frontmatter にない | 未対応 |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | Critical | 前の章の記述と矛盾する断定 | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | Critical | 用語集に未登録の語がある | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | High | 経験的な主張に出典がない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | High | 主張を支える根拠が成立していない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | High | 条件つきの命題を無条件に断定 | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | High | 段落に要約文がない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | High | 1段落に複数トピックが混在 | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | High | 用語集に未登録の語がある | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | Medium | 反論への言及がない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | logic | Medium | 1件の事例から一般化している | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | Medium | 主張文が図の位置参照に依存している | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | paragraph | Medium | 段落が短く意味の単位になっていない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 同じ語を1文で2回使用 | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 理由を述べる位置に事実の言い換えがある | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | tech-writing | Medium | 日本語として読み下しにくい | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | style | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 後の章との担当範囲が読み取れない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 前の節と重複し新しく分かることが少ない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | audience | Medium | 比喩の指す対象が定まらない | fixed |
+| 2026-09-09 | docs/02-not-just-coding/01-where-it-got-faster.md | 2-1 | fact | Medium | 引用の来歴が frontmatter にない | fixed |
 
 ## 集計（3回ルールの判定用）
 
