@@ -21,6 +21,8 @@ sources:
 > "AI acts as an amplifier, but the greatest returns come from focusing on the underlying sociotechnical systems."
 > 出典: https://dora.dev/research/?view=detail （2026-09-08 確認）
 
+AIは増幅器として働くが、最も大きな成果は、その下にある人と技術の仕組みに手を入れたときに得られる、と述べています。
+
 DORAによるとAIは増幅器です。優れた下地を持つ組織では、その能力をAIが増幅し、大きなリターンにつながります。そうでない場合、期待するリターンは得られないでしょう。
 
 この教材が教えるのは、コーディングエージェントが効く状態を作るエンジニアリングです。コーディングエージェントにコードを速く書かせる技術ではありません。その状態を作ることが、DORAの言う「下地」に手を入れることにあたります。
