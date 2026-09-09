@@ -19,6 +19,7 @@ sources:
 この構図を、DORAは2025年の研究で述べています。DORAは、ソフトウェア開発の実践と成果の関係を継続的に調査している研究プログラムです。
 
 > "AI acts as an amplifier, but the greatest returns come from focusing on the underlying sociotechnical systems."
+> 訳: AIは増幅器として働くが、最も大きな成果は、その下にある人と技術の仕組みに手を入れたときに得られる。
 > 出典: https://dora.dev/research/?view=detail （2026-09-08 確認）
 
 DORAによるとAIは増幅器です。優れた下地を持つ組織では、その能力をAIが増幅し、大きなリターンにつながります。そうでない場合、期待するリターンは得られないでしょう。
