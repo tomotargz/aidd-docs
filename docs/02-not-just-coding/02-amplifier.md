@@ -54,13 +54,13 @@ AIの利用が進んでいる組織では、届ける量と不安定さの両方
 
 不安定さが上がるのは、AIが新しい欠陥を持ち込むからではありません。確かめる力が足りないという、もともとあった弱みが、量が増えたことで表に出るからです。
 
-## 下地が結果を決める
+## 土台が結果を決める
 
-同じエージェントを入れても、下地が違えば結果は変わります。
+同じエージェントを入れても、土台が違えば結果は変わります。
 
-下地とは、エージェントの外側にある、人とツールと手順の組み合わせです。DORAの一文の後半にある"underlying sociotechnical systems"がこれにあたります。この言い換えは教材独自のもので、DORAが定義しているわけではありません。
+土台とは、エージェントの外側にある、人とツールと手順の組み合わせです。DORAの一文の後半にある"underlying sociotechnical systems"がこれにあたります。この言い換えは教材独自のもので、DORAが定義しているわけではありません。
 
-下地の代表例は、エージェントに渡せる情報です。DORAは、内部のデータにAIが直接アクセスできることの効果をこう述べています。
+土台の代表例は、エージェントに渡せる情報です。DORAは、内部のデータにAIが直接アクセスできることの効果をこう述べています。
 
 > "giving teams AI tools that can access internal data directly amplifies the positive impact of AI adoption, serving as a statistically significant multiplier for individual effectiveness and code quality"
 > 訳: 内部のデータに直接アクセスできるAIツールをチームに与えることは、AI導入の効果を増幅し、個人の生産性とコードの品質に対して統計的に有意な倍率として働く。
