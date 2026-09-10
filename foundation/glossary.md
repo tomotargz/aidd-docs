@@ -40,7 +40,7 @@
 | リリース | 使える状態にして届ける工程。7章「継続的デリバリー」で自動化を扱う。 | デプロイ / 出荷 |
 | 増幅器 | 入力を大きくして出力するもの。DORA が AI の働きを説明するのに使う語（amplifier）。 | アンプ / 拡大器 |
 | 土台 | エージェントの外側にある、人とツールと手順の組み合わせ。DORA の underlying sociotechnical systems にあたる。 | 下地 / 基盤 |
-| 届ける量 | 一定の期間に本番へ届けた変更の量。DORA の software delivery throughput にあたる。 | スループット |
-| 不安定さ | 届けた変更が問題を起こす割合。DORA の software delivery instability にあたる。 | 不安定性 / インスタビリティ |
+| スループット | 一定の期間にリリースした変更の量。DORA の software delivery throughput にあたる。 | 届ける量 |
+| 不安定さ | リリースした変更が問題を起こす割合。DORA の software delivery instability にあたる。 | 不安定性 / インスタビリティ |
 
 （章の執筆に合わせて追加していく）
