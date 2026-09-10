@@ -13,6 +13,7 @@
 ### wontfix の理由
 
 - 2-2「中心となる主張がまとめから落ちている」— 章の中心となる主張の後半は、2章3節で述べることにした（2026-09-10 の判断）
+- 2-3「段落が短い」— 2章は全節が1〜2文の段落で構成されており、章の慣行として揃えた（2026-09-10 の判断。writing-reviewer も判断を委ねていた）
 
 ## ログ
 
@@ -194,30 +195,30 @@
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | tech-writing | Medium | 日本語として読み下しにくい | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | paragraph | Medium | 段落が短く意味の単位になっていない | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | audience | Medium | 同じ引用の再掲の理由が書かれていない | fixed |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Critical | 読む順序の案内が基準文書と矛盾する | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | High | 前の節の主張を要約する際に対象がずれている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | High | 主張と結論の間の一段が抜けている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | High | 指標が節をまたいで入れ替わっている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | paragraph | High | 段落の第1文が要約文になっていない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | High | 表の行が自分に当てはまるか判定できない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | High | 登録済みの語が表の複数行にまたがって見える | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | Medium | 分類の軸に異なる種類のものが混ざっている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | Medium | 条件が成り立たない場合に触れていない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Medium | 例示を確定した件数として扱っている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Medium | 主張を述べる節に sources がない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前の節で説明のない語が判定の条件になっている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前提知識のある読者に当てはまるか判断できない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 表の行名が前の節の語と一致しない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 同一概念に複数の呼び名 | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前の節で示した帰結の片方が落ちている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 表の行を番号で参照している | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 指示語の指す先が一意でない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 主語がねじれている | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 同じ語を1文で2回使用 | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 並列が文法的に揃っていない | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 動作の主語が抽象名詞 | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | High | 使用禁止の別表記を使用 | 未対応 |
-| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | Medium | 同一の引用の訳が章をまたいで揺れている | 未対応 |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Critical | 読む順序の案内が基準文書と矛盾する | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | High | 前の節の主張を要約する際に対象がずれている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | High | 主張と結論の間の一段が抜けている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | High | 指標が節をまたいで入れ替わっている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | paragraph | High | 段落の第1文が要約文になっていない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | High | 表の行が自分に当てはまるか判定できない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | High | 登録済みの語が表の複数行にまたがって見える | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | Medium | 分類の軸に異なる種類のものが混ざっている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | logic | Medium | 条件が成り立たない場合に触れていない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Medium | 例示を確定した件数として扱っている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | fact | Medium | 主張を述べる節に sources がない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前の節で説明のない語が判定の条件になっている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前提知識のある読者に当てはまるか判断できない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 表の行名が前の節の語と一致しない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 同一概念に複数の呼び名 | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | audience | Medium | 前の節で示した帰結の片方が落ちている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 表の行を番号で参照している | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 指示語の指す先が一意でない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 主語がねじれている | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 同じ語を1文で2回使用 | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 並列が文法的に揃っていない | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 動作の主語が抽象名詞 | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | High | 使用禁止の別表記を使用 | fixed |
+| 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | Medium | 同一の引用の訳が章をまたいで揺れている | fixed |
 
 ## 集計（3回ルールの判定用）
 
