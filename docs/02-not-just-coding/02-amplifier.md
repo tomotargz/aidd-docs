@@ -19,7 +19,7 @@ sources:
 この節では、AIは増幅器であるというDORAの主張を掘り下げます。
 
 > "AI acts as an amplifier, but the greatest returns come from focusing on the underlying sociotechnical systems."
-> 訳: AIは増幅器として働くが、最も大きな成果は、その下にある社会技術システムに注目したときに得られる。
+> 訳: AIは増幅器として働くが、最も大きな成果は、その下にある人と技術の仕組みに注目したときに得られる。
 > 出典: https://dora.dev/research/?view=detail （2026-09-08 確認）
 
 ## 増幅器とは
