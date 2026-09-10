@@ -10,6 +10,10 @@
 4. 対応欄は、修正 PR のマージ時に `fixed` / `wontfix` に更新する。`wontfix` の場合は理由を1行添える。
 5. 行を削除しない。過去の傾向が振り返りの材料になる。
 
+### wontfix の理由
+
+- 2-2「中心となる主張がまとめから落ちている」— 章の中心となる主張の後半は、2章3節で述べることにした（2026-09-10 の判断）
+
 ## ログ
 
 | 日付 | 対象 | 章 | カテゴリ | 重大度 | 指摘要約 | 対応 |
@@ -175,7 +179,7 @@
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | audience | High | 見出しが本文の結論と逆に読める | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | audience | High | 中心となる一文の具体例がない | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | logic | Medium | 比喩と観察の間に橋がない | fixed |
-| 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | logic | Medium | 中心となる主張がまとめから落ちている | fixed |
+| 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | logic | Medium | 中心となる主張がまとめから落ちている | wontfix |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | logic | Medium | アウトラインの根拠が原稿で入れ替わっている | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | fact | Medium | 用語の言い換えに出典がない | fixed |
 | 2026-09-09 | docs/02-not-just-coding/02-amplifier.md | 2-2 | fact | Medium | 同一文書内で用語の定義がずれている | fixed |
