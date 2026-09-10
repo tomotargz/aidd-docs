@@ -56,10 +56,12 @@ index 331cb4a..d4242f3 100644
 エージェントにより変更の量が増えると、検査の負荷が高まります。DORAは2026年の記事で次のように述べています。
 
 > "higher AI adoption is associated with an increase in both software delivery throughput and software delivery instability."
-> 訳: AIの導入が進んでいることは、届ける量が増えていることと、不安定さが増していることの両方に関連している。
+> 訳: AIの導入が進んでいることは、スループットが増えていることと、不安定さが増していることの両方に関連している。
 > "the time saved during initial code or content generation is often re-allocated to verification overhead and prompting overhead"
 > 訳: コードを書く時間が短くなったぶんは、確かめる作業と指示を出す作業に移る。
 > 出典: https://dora.dev/insights/balancing-ai-tensions/ （2026-09-09 確認）
+
+スループットとは、一定の期間にリリースした変更の量です。
 
 検査が追いつかなければ、エージェントを使ってもリリースまでの時間は短くなりません。検査を人によるレビューや手動テストに頼っているならば、変更の量が増えると待ち行列が長くなります。新しい変更を速く作ることができても、長い待ち行列に阻まれて、リリースは速くなりません。
 
