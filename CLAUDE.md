@@ -19,19 +19,6 @@
 | `foundation/glossary.md` | 用語の正式表記 |
 | `foundation/review-criteria.md` | レビューのカテゴリ・重大度・書式 |
 
-## ディレクトリ
-
-```
-docs/<NN>-<章スラッグ>/     教材本体。outline.md と <MM>-<節スラッグ>.md
-foundation/                 上記の基準文書
-sources/references.md       出典台帳
-logs/review-log.md          レビュー指摘ログ（振り返りの入力）
-retrospectives/             章ごとの振り返り
-backlog.md                  タスク管理
-.claude/agents/             レビュー用サブエージェント
-.claude/commands/           ワークフローのコマンド
-```
-
 ## ワークフロー
 
 ```
