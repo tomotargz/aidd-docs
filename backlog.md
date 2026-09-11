@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 2章の Try を適用する (branch: process/apply-retro-ch02)
+- 3章のアウトライン設計 (branch: outline/ch03)
 
 ## 教材
 
