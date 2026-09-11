@@ -6,7 +6,7 @@
 
 作業中のタスクを1〜2件だけ書く。ブランチ名を併記する。
 
-- 2章の振り返り (branch: retro/ch02)
+- 2章の Try を適用する (branch: process/apply-retro-ch02)
 
 ## 教材
 
@@ -66,9 +66,9 @@
 
 振り返り（`/retro`）と3回ルールから積まれる。適用は `process/` ブランチで行う。
 
-- [ ] 用語集を変えた PR で、既存の節への影響を洗い出す手順を追加する — `foundation/glossary.md` の運用ルール（ret-ch02 P1）
-- [ ] 書き込みとプッシュの前に状態を確認する手順を追加する — `CLAUDE.md`（ret-ch02 P4・P5）
-- [ ] マージ済みのローカルブランチを削除する手順を追加する — `CLAUDE.md`「タスク管理」（ret-ch02、人の体感）
+- [x] 用語集を変えた PR で、既存の節への影響を洗い出す手順を追加する — `foundation/glossary.md` の運用ルール（ret-ch02 P1）
+- [x] 書き込みとプッシュの前に状態を確認する手順を追加する — `CLAUDE.md`（ret-ch02 P4・P5）
+- [x] マージ済みのローカルブランチを削除する手順を追加する — `CLAUDE.md`「タスク管理」（ret-ch02、人の体感）
 - [x] 応答の長さに上限を設ける — `CLAUDE.md`（ret-phase-0-1 P1） (PR #5)
 - [x] 大きな文書の起案前に構成の合意を必須にする — `CLAUDE.md`（ret-phase-0-1 P1・P2） (PR #5)
 - [x] `foundation/` の各文書に責務を1行で明記する — 各 foundation 文書（ret-phase-0-1 P2） (PR #5)
