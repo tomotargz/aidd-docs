@@ -2,7 +2,7 @@
 title: タスクを分割する
 chapter: 3
 section: 1
-status: draft
+status: reviewed
 updated: 2026-09-13
 sources:
   - REF-032

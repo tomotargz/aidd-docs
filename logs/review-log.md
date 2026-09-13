@@ -219,6 +219,45 @@
 | 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | tech-writing | Medium | 動作の主語が抽象名詞 | fixed |
 | 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | High | 使用禁止の別表記を使用 | fixed |
 | 2026-09-10 | docs/02-not-just-coding/03-map.md | 2-3 | style | Medium | 同一の引用の訳が章をまたいで揺れている | fixed |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | Critical | 前の章の記述と矛盾する断定 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | High | 経験的な主張に出典がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | High | 経験的な主張に出典がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | High | 引用の位置づけが原文とずれている |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | High | 引用元と用語の定義が食い違う |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | logic | High | 前の節の予告が回収されていない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | logic | High | 選択肢の列挙に漏れがある |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | logic | High | 主張と結論の間の一段が抜けている |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | High | 引用の紹介文が段落の要約文になっていない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | High | 1段落に複数トピックが混在 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | High | 1段落に複数トピックが混在 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | High | 段落の要約文が末尾にある |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | style | High | 用語集に未登録の語がある |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | style | High | 同一概念に複数の呼び名 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | style | High | 使用禁止の別表記を使用 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | style | High | 文体の混在（ですます調とである調） |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 中心の語が一度で意味が定まらない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 後の章に持ち越す論点の予告がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 前提知識「なし」の領域を説明せずに使用 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 中心となる一文の具体例がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 後の章との担当範囲が読み取れない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | High | 締めの指針が指す対象が定まらない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | Medium | 引用の理由づけを原文にない機構で補っている |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | Medium | 引用が文の途中で切れ省略が示されていない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | Medium | 出典のない定量的な断定 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | fact | Medium | 用語の言い換えに出典がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | Medium | 段落の要約文が末尾にある |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | paragraph | Medium | 段落の第1文が前置きや指示語で内容を含まない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | tech-writing | Medium | 指示語の指す先が一意でない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | tech-writing | Medium | 一文が長く主語と述語が離れている |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | tech-writing | Medium | 係り受けが二通りに読める |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | tech-writing | Medium | 日本語として読み下しにくい |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | style | Medium | 同一概念に複数の呼び名 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | Medium | 語の指す対象が読者の経験とずれる |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | Medium | 同一概念に複数の呼び名 |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | Medium | 数値の目安が自分の判断に効かない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | audience | Medium | 同じ形式の繰り返しで読み飛ばしが起きる |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | logic | Medium | 反論への言及がない |  |
+| 2026-09-13 | docs/03-small-batch-context/01-split-tasks.md | 3-1 | logic | Medium | アウトラインの理解の変化が原稿に現れない |  |
 
 ## 集計（3回ルールの判定用）
 
@@ -226,19 +265,21 @@
 
 | カテゴリ | 指摘要約の類型 | 件数 | 状態 |
 |---|---|---|---|
+| fact | 経験的な主張に出典がない | 3 | 発火 |
 | fact | デモ手順が再現できない（前提となる操作の欠落） | 2 | 監視中 |
 | fact | デモ手順に原稿外の知識の補完が必要 | 2 | 監視中 |
+| fact | 出典のない定量的な断定 | 2 | 監視中 |
 | fact | 出力例が実際の出力と一致しない | 2 | 監視中 |
+| fact | 前の章の記述と矛盾する断定 | 2 | 監視中 |
 | fact | 環境依存が明示されていない | 2 | 監視中 |
+| fact | 用語の言い換えに出典がない | 2 | 監視中 |
 | fact | 記述と出典 URL の内容が一致しない | 2 | 監視中 |
 | fact | エージェントの挙動を出典なく断定 | 1 | 監視中 |
 | fact | 一次情報より広い範囲で断定 | 1 | 監視中 |
 | fact | 主張を述べる節に sources がない | 1 | 監視中 |
 | fact | 例示を確定した件数として扱っている | 1 | 監視中 |
-| fact | 出典のない定量的な断定 | 1 | 監視中 |
 | fact | 出典のない断定が一次情報と食い違う | 1 | 監視中 |
 | fact | 出典の名称・URL・確認日が本文にない | 1 | 監視中 |
-| fact | 前の章の記述と矛盾する断定 | 1 | 監視中 |
 | fact | 前の節の主張を要約する際に対象がずれている | 1 | 監視中 |
 | fact | 前提としている環境が列挙から漏れている | 1 | 監視中 |
 | fact | 参照先の対応づけが一意でない | 1 | 監視中 |
@@ -249,26 +290,29 @@
 | fact | 実行記録であることと省略の方針が未記載 | 1 | 監視中 |
 | fact | 宣言が複数の場所で重複している | 1 | 監視中 |
 | fact | 引用が主張を支えていない | 1 | 監視中 |
+| fact | 引用が文の途中で切れ省略が示されていない | 1 | 監視中 |
+| fact | 引用の位置づけが原文とずれている | 1 | 監視中 |
 | fact | 引用の来歴が frontmatter にない | 1 | 監視中 |
+| fact | 引用の理由づけを原文にない機構で補っている | 1 | 監視中 |
+| fact | 引用元と用語の定義が食い違う | 1 | 監視中 |
 | fact | 数値の適用先が読者の状況と合っていない | 1 | 監視中 |
 | fact | 機能が働く条件が抜けている | 1 | 監視中 |
-| fact | 用語の言い換えに出典がない | 1 | 監視中 |
 | fact | 画面表示を示さずに確認を求めている | 1 | 監視中 |
 | fact | 相関を因果として記述 | 1 | 監視中 |
-| fact | 経験的な主張に出典がない | 1 | 監視中 |
 | fact | 読む順序の案内が基準文書と矛盾する | 1 | 監視中 |
-| logic | 反論への言及がない | 2 | 監視中 |
+| logic | 反論への言及がない | 3 | 発火 |
+| logic | 主張と結論の間の一段が抜けている | 2 | 監視中 |
+| logic | 前の節の予告が回収されていない | 2 | 監視中 |
 | logic | 見出し直下の主張文と本文が矛盾 | 2 | 監視中 |
 | logic | 1件の事例から一般化している | 1 | 監視中 |
 | logic | 1回の実行結果から因果を断定 | 1 | 監視中 |
 | logic | アウトラインの根拠が原稿で入れ替わっている | 1 | 監視中 |
+| logic | アウトラインの理解の変化が原稿に現れない | 1 | 監視中 |
 | logic | ツール固有の挙動を一般化して断定 | 1 | 監視中 |
 | logic | 中心となる主張がまとめから落ちている | 1 | 監視中 |
 | logic | 主張が定義の言い換えにとどまる | 1 | 監視中 |
-| logic | 主張と結論の間の一段が抜けている | 1 | 監視中 |
 | logic | 主張を支える根拠が成立していない | 1 | 監視中 |
 | logic | 分類の軸に異なる種類のものが混ざっている | 1 | 監視中 |
-| logic | 前の節の予告が回収されていない | 1 | 監視中 |
 | logic | 前提の一部しか使わずに結論づけている | 1 | 監視中 |
 | logic | 同じ章の別の節と矛盾する断定 | 1 | 監視中 |
 | logic | 基準文書と食い違う記述 | 1 | 監視中 |
@@ -289,49 +333,57 @@
 | logic | 節の冒頭が立てた問いに本文が答えていない | 1 | 監視中 |
 | logic | 結論が根拠より狭い範囲に圧縮されている | 1 | 監視中 |
 | logic | 規約にない前提を断定している | 1 | 監視中 |
-| paragraph | 1段落に複数トピックが混在 | 7 | 発火 |
-| paragraph | 段落の要約文が末尾にある | 4 | 発火 |
+| logic | 選択肢の列挙に漏れがある | 1 | 監視中 |
+| paragraph | 1段落に複数トピックが混在 | 9 | 発火 |
+| paragraph | 段落の要約文が末尾にある | 6 | 発火 |
+| paragraph | 段落の第1文が前置きや指示語で内容を含まない | 3 | 発火 |
 | paragraph | 段落が短く意味の単位になっていない | 2 | 監視中 |
 | paragraph | 段落に要約文がない | 2 | 監視中 |
-| paragraph | 段落の第1文が前置きや指示語で内容を含まない | 2 | 監視中 |
 | paragraph | 第2文以降に新しい主張が混ざる | 2 | 監視中 |
 | paragraph | 主張文が図の位置参照に依存している | 1 | 監視中 |
+| paragraph | 引用の紹介文が段落の要約文になっていない | 1 | 監視中 |
 | paragraph | 段落の切り分けの基準が示されていない | 1 | 監視中 |
 | paragraph | 段落の第1文が予告文で内容を含まない | 1 | 監視中 |
 | paragraph | 段落の第1文が要約文になっていない | 1 | 監視中 |
 | paragraph | 見出し直下に主張文がない | 1 | 監視中 |
-| tech-writing | 指示語の指す先が一意でない | 8 | 発火 |
+| tech-writing | 指示語の指す先が一意でない | 9 | 発火 |
 | tech-writing | 同じ語を1文で2回使用 | 5 | 発火 |
 | tech-writing | 動作の主語が抽象名詞 | 4 | 発火 |
+| tech-writing | 日本語として読み下しにくい | 4 | 発火 |
+| tech-writing | 一文が長く主語と述語が離れている | 3 | 発火 |
 | tech-writing | 並列が文法的に揃っていない | 3 | 発火 |
-| tech-writing | 日本語として読み下しにくい | 3 | 発火 |
-| tech-writing | 一文が長く主語と述語が離れている | 2 | 監視中 |
 | tech-writing | 動作の主体が不明 | 2 | 監視中 |
 | tech-writing | 曖昧語を使用 | 2 | 監視中 |
 | tech-writing | 主語がねじれている | 1 | 監視中 |
 | tech-writing | 主語が省かれ文が単独で閉じない | 1 | 監視中 |
 | tech-writing | 主語と述語がねじれている | 1 | 監視中 |
 | tech-writing | 件数を述べたリストが番号付きでない | 1 | 監視中 |
+| tech-writing | 係り受けが二通りに読める | 1 | 監視中 |
 | tech-writing | 数値の数え方が原稿から再現できない | 1 | 監視中 |
 | tech-writing | 理由を述べる位置に事実の言い換えがある | 1 | 監視中 |
 | tech-writing | 表の行を番号で参照している | 1 | 監視中 |
-| style | 用語集に未登録の語がある | 7 | 発火 |
-| style | 同一概念に複数の呼び名 | 5 | 発火 |
-| style | 使用禁止の別表記を使用 | 3 | 発火 |
+| style | 用語集に未登録の語がある | 8 | 発火 |
+| style | 同一概念に複数の呼び名 | 7 | 発火 |
+| style | 使用禁止の別表記を使用 | 4 | 発火 |
 | style | 和欧文間のスペース | 3 | 発火 |
 | style | ツール固有の記述が囲みの外にある | 2 | 監視中 |
 | style | 定義前に省略形を使用 | 2 | 監視中 |
+| style | 文体の混在（ですます調とである調） | 2 | 監視中 |
 | style | 見出し直下の主張文が1文になっていない | 2 | 監視中 |
 | style | H1 と frontmatter の title が一致しない | 1 | 監視中 |
 | style | 受講者を主語にした決めつけ | 1 | 監視中 |
 | style | 同一の引用の訳が章をまたいで揺れている | 1 | 監視中 |
-| style | 文体の混在（ですます調とである調） | 1 | 監視中 |
 | style | 省略形を定義より前に使用 | 1 | 監視中 |
 | style | 英文引用の形式が章をまたいで揺れている | 1 | 監視中 |
 | style | 表記の大文字小文字の揺れ | 1 | 監視中 |
 | style | 見出し直下の1文が見出しの主張になっていない | 1 | 監視中 |
 | style | 題材の名前が節をまたいで揃っていない | 1 | 監視中 |
-| audience | 中心となる一文の具体例がない | 1 | 監視中 |
+| audience | 中心となる一文の具体例がない | 2 | 監視中 |
+| audience | 前提知識「なし」の領域を説明せずに使用 | 2 | 監視中 |
+| audience | 同一概念に複数の呼び名 | 2 | 監視中 |
+| audience | 後の章との担当範囲が読み取れない | 2 | 監視中 |
+| audience | 後の章に持ち越す論点の予告がない | 2 | 監視中 |
+| audience | 中心の語が一度で意味が定まらない | 1 | 監視中 |
 | audience | 予告した操作が渡されない | 1 | 監視中 |
 | audience | 出力例の実物と整形の区別が不明 | 1 | 監視中 |
 | audience | 到達点が示されていない | 1 | 監視中 |
@@ -340,7 +392,6 @@
 | audience | 前の節で示した帰結の片方が落ちている | 1 | 監視中 |
 | audience | 前の節で説明のない語が判定の条件になっている | 1 | 監視中 |
 | audience | 前の節と重複し新しく分かることが少ない | 1 | 監視中 |
-| audience | 前提知識「なし」の領域を説明せずに使用 | 1 | 監視中 |
 | audience | 前提知識では意味を取れない語で到達目標を定義 | 1 | 監視中 |
 | audience | 前提知識との違いが示されず新規性が伝わらない | 1 | 監視中 |
 | audience | 前提知識にない環境依存が未記載 | 1 | 監視中 |
@@ -348,14 +399,13 @@
 | audience | 参照の順序が循環している | 1 | 監視中 |
 | audience | 受講者の主要な不安に受け皿も予告もない | 1 | 監視中 |
 | audience | 同じ引用の再掲の理由が書かれていない | 1 | 監視中 |
-| audience | 同一概念に複数の呼び名 | 1 | 監視中 |
+| audience | 同じ形式の繰り返しで読み飛ばしが起きる | 1 | 監視中 |
 | audience | 完了条件が示されていない | 1 | 監視中 |
-| audience | 後の章との担当範囲が読み取れない | 1 | 監視中 |
-| audience | 後の章に持ち越す論点の予告がない | 1 | 監視中 |
 | audience | 必要な準備物への案内がない | 1 | 監視中 |
 | audience | 抽象語のまま説明されず読者の関心に応えていない | 1 | 監視中 |
 | audience | 操作の前後関係が書かれていない | 1 | 監視中 |
 | audience | 数え方が前後で一致しない | 1 | 監視中 |
+| audience | 数値の目安が自分の判断に効かない | 1 | 監視中 |
 | audience | 書式の例が実物の形になっていない | 1 | 監視中 |
 | audience | 比喩の指す対象が定まらない | 1 | 監視中 |
 | audience | 環境によって手順が変わる箇所が未記載 | 1 | 監視中 |
@@ -363,10 +413,12 @@
 | audience | 登録済みの語が表の複数行にまたがって見える | 1 | 監視中 |
 | audience | 研修と自習の区別が数値から読み取れない | 1 | 監視中 |
 | audience | 節の導入がなく読む目的が示されない | 1 | 監視中 |
+| audience | 締めの指針が指す対象が定まらない | 1 | 監視中 |
 | audience | 英文引用に訳がなく根拠が読み取れない | 1 | 監視中 |
 | audience | 表の行が自分に当てはまるか判定できない | 1 | 監視中 |
 | audience | 表の行名が前の節の語と一致しない | 1 | 監視中 |
 | audience | 見出しが本文の結論と逆に読める | 1 | 監視中 |
+| audience | 語の指す対象が読者の経験とずれる | 1 | 監視中 |
 | audience | 読む節か手を動かす節かが判別できない | 1 | 監視中 |
 
 状態: `監視中`（1〜2件） / `発火`（3件以上、改善タスク未作成） / `対応済`（改善を適用済み）
